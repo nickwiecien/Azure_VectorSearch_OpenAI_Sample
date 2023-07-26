@@ -1,0 +1,3 @@
+# Azure OpenAI + Cognitive Search (Vector) Sample
+
+This repo contains a sample notebook showcasing how to create an vector search index in Azure Cognitive Search (using PDF documents sourced from an Azure Blob Storage account) and how to ask questions of that data using LLMs through the Azure OpenAI Service. Note: This sample has been assembled to demonstrate the core steps in the workflow listed below - there are significant optimizations that can be made to afford increased parallelism during document creation/indexing. It has been adapted from the scripts provided as part of this [Microsoft Cognitive Search + Azure OpenAI accelerator](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/scripts/prepdocs.py).
